@@ -79,6 +79,30 @@ header nav ul li {
     background-position: center;
 }
 
+/* Main Content Styles */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2{
+    margin-bottom: 20px;
+    font-size: 36px;    
+}
+
 /* Sidebar Styles */
 .benefits {
     margin-right: 20px;
@@ -104,30 +128,6 @@ header nav ul li {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Main Content Styles */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content article img {
-    max-height: 200px;
-}
-
-.content article h2{
-    margin-bottom: 20px;
-    font-size: 36px;    
 }
 
 /* Footer Styles */
